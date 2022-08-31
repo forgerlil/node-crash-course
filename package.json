@@ -4,6 +4,7 @@
   "description": "Check out to the different branches to see the different steps of building this project!",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

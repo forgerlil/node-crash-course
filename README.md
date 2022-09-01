@@ -1,5 +1,6 @@
 Changes:
 
-1. With the help of the MVC pattern, we started to split our code into more manageable chunks!
-2. The two functions in the index.js are now declared in controller.js and exported.
-3. The functions in controller.js are now imported into index.js file and used to handle the requests.
+1. We moved our middleware to be applied to all routes through the .use method.
+2. By making use of the .route() method, we can apply many types of request to the same path in a much more concise way.
+3. We created a folder, controllers, where all the files that have controller functions will be stored.
+4. We limited our endpoints to respond to specific types of request, and set up a few more endpoints and controller functions.
